@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 26, 2021, 10:27:53 AM
+    Author     : DELL
+*/
+.right
+{
+    width: 200px;
+    height: auto;
+    padding-left: 10px;
+}
+.newsRecent{
+    width: 100%;
+    height: auto;
+    font-size: 12px;
+}
+.newsTitle {
+    color: #3A4C42;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px
+}
+.description{
+    font-size: 12px;
+}
+.otherTitle{
+    color: #3A4C42;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+}
+.searchBox{
+    border: dashed 1px;
+    display: inline-block;
+}
+.searchButton{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    color: #999999;
+    display: inline-block;
+}
+.top5Recent{
+     padding-bottom: 20px;
+}
+.top5Recent a{
+    color: #35463b;
+}
+.top5Recent a:visited{
+    color: #35463b;
+}
+.top5Recent a:hover{
+    color: blue;
+}

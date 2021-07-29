@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/digital">
+    <Environment name="myConnectionURL" type="java.lang.String" value="jdbc:sqlserver://localhost:1433;databaseName= DigitalNews"/>
+    <Environment name="username" type="java.lang.String" value="sa1"/>
+    <Environment name="password" type="java.lang.String" value="sa1"/>
+    <Environment name="image" type="java.lang.String" value="images/"/>
+</Context>

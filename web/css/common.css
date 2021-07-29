@@ -1,0 +1,105 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 21, 2021, 10:18:46 AM
+    Author     : DELL
+*/
+body{
+    font-family: sans-serif;
+    background-color: #e7e7e7;
+}
+.container{
+    background-image: url(../images/bg.jpg) ;
+    background-repeat: repeat-y;
+    width: 886px;
+    height: auto;
+    margin: 0px auto; 
+}
+.content{
+    width: 686px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+}
+.left{
+    width: 500px;
+    font-size: 11px;
+    padding: 20px 20px 0px 0px;
+    border-right: dotted 2px;
+    border-color: #C1C1C1;
+}
+.error{
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+.tittle{
+    color: #34443b;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.newsContent{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #C1C1C1;
+    margin: 10px 10px 10px 0px;
+}
+.image img{
+    width: 400px;
+}
+.signature{
+    text-align: right;
+    padding-bottom: 40px;
+}
+.comment{
+    background-image: url(../images/comment.gif);
+    background-repeat: no-repeat;
+    width: 9px;
+    height: 9px;
+    display: inline-block;
+}
+.time{
+    background-image: url(../images/timeicon.gif);
+    background-repeat: no-repeat;
+    width: 9px;
+    height: 9px;
+    display: inline-block;
+}
+.page{
+    margin-top: 30px;
+    text-align: center;
+}
+.page a{
+    text-decoration: none;
+    padding: 2px;
+    border: 1px solid;
+}
+.clicked{
+    color: blue;
+    font-weight: bold;
+    background-color: yellow;
+    pointer-events: none;
+}
+.left a{
+    color: #3A4C42;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+.perNews img{
+    width: 40%;
+}
+.perNews p{
+    width: 60%;
+    margin: 5px;
+    padding-bottom: 30px;
+}
+.perNews{
+    border-bottom: 1px solid #C1C1C1;
+    display: flex;
+}
+
